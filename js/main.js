@@ -30,3 +30,4 @@ hamburger.addEventListener("click", () => {
 navLinks.addEventListener("click", () => {
   navLinks.classList.remove("activo");
 });
+

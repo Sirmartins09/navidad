@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imagenes</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-top">
+    <div class="logo">🎄 Navidad 2025</div>
+
+    <!-- Botón hamburguesa (solo móvil) -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Links del menú -->
+  <nav class="nav-links" id="nav-links">
+    <a href="../index.html/#menu">Menú</a>
+    <a href="#amigo">Amigo Invisible</a>
+    <a href="#indicaciones">Indicaciones</a>
+    <a href="./pages/galeria.html">Galeria</a>
+    <a href="#ubicacion">Ubicación</a>
+    
+  </nav>
+</header>
+<section id="galeria" class="galeria">
+  <h2>📸 Galería de recuerdos</h2>
+  <p class="sub">Aquí guardaremos los mejores momentos de la fiesta.</p>
+
+  <div class="galeria-grid">
+    <img src="../assets/img/familia1.jpg" alt="Foto fiesta">
+    <img src="../assets/img/familia2.jpg" alt="Foto fiesta">
+    <img src="../assets/img/familia3.jpg" alt="Foto fiesta">
+    <img src="../assets/img/familia4.jpg" alt="Foto fiesta">
+    <img src="../assets/img/familia5.jpg" alt="Foto fiesta">
+  </div>
+
+<!-- LIGHTBOX con Slider -->
+<div id="lightbox" class="lightbox">
+  <span class="cerrar">&times;</span>
+
+  <span class="flecha izq">&#10094;</span>
+  <img id="lightbox-img" src="" alt="Imagen ampliada">
+  <span class="flecha der">&#10095;</span>
+</div>
+</section>
+<script src="../js/galeria.js"></script>
+</body>
+</html>
